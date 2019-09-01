@@ -27,7 +27,7 @@ header .row .col-lg-6 h1{
 
 header .row .col-lg-6 p{
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 450;
     color:white;
     padding-top:40px;
     font-family: 'Open Sans', sans-serif;  
@@ -49,4 +49,49 @@ header .row .col-lg-6 img{
     margin-top: 133px;
     transform: rotate(3deg);
 
+}
+.why{
+    background:url(../images/background2.jpg);
+    background-repeat: no-repeat;
+}
+.why .top .row p{
+    text-align: center;
+    padding: 150px 144px 50px 144px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    line-height: 38px;
+}
+.why .top .row{
+    padding: 0px 0px;
+    padding:40px;
+}
+.why .bottom .row{
+   padding:40px 100px;
+}
+.why .bottom .row .col-lg-3{
+    font-family: 'Open Sans', sans-serif;
+    padding:10px;
+    
+}
+.why .bottom .row .col-lg-3 .col{
+    border : 8px solid white;
+    padding:10px;
+    background: #FA662E;
+    /* margin:50px; */
+}
+.why .bottom .row .col-lg-3 .col p{
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    margin-bottom:30px;
+    margin-top:10px; 
+}
+.why .bottom .row .col-lg-3 .col hr{
+    border: 01px solid white;
+}
+.why .bottom .row .col-lg-3 .col .num{
+    color:white;
+    font-weight: bold;
+    font-size:25px;
 }
