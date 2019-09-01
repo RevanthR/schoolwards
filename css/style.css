@@ -1,9 +1,52 @@
 header{
-    background: black;  
+    background: url(../images/background1.jpg);
+    font-family: 'Open Sans', sans-serif;  
+    background-repeat: no-repeat;
+    background-size:auto; 
     
 }
 .nav-item{
+    font-family: 'Open Sans', sans-serif;
     color:white;
     margin:15px;
-    font-size:15px;
+    font-size:14px;
+}
+.navbar-brand img{
+    height: 66px;
+    padding-left:40px;
+    margin-top:14px;
+}
+header .row .col-lg-6 h1{
+    color:  white;
+    font-weight: bold;
+    font-size:55px;
+    letter-spacing: -3.85px;
+    line-height: 80px; 
+    padding-top:80px;
+}
+
+header .row .col-lg-6 p{
+    font-size: 22px;
+    font-weight: 100;
+    color:white;
+    padding-top:40px;
+    font-family: 'Open Sans', sans-serif;  
+    line-height: 40px;
+}
+header .row .col-lg-6 button{
+    border-radius: 0px;
+    border: none; 
+    padding: 5px 40px;
+    background: white;
+    color: #FA662E;
+    font-weight:bold;
+    margin-top: 05px;
+    margin-bottom:80px;   
+}
+header .row .col-lg-6 img{
+    height:400px;
+    margin-left:85px;
+    margin-top: 133px;
+    transform: rotate(3deg);
+
 }
