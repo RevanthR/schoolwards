@@ -22,14 +22,14 @@ header .row .col-lg-6 h1{
     font-size:55px;
     letter-spacing: -3.85px;
     line-height: 80px; 
-    padding-top:80px;
+    padding-top:200px;
 }
 
 header .row .col-lg-6 p{
     font-size: 22px;
     font-weight: 450;
     color:white;
-    padding-top:40px;
+    padding: 40px 40px 10px 0px;
     font-family: 'Open Sans', sans-serif;  
     line-height: 40px;
 }
@@ -46,7 +46,7 @@ header .row .col-lg-6 button{
 header .row .col-lg-6 img{
     height:400px;
     margin-left:85px;
-    margin-top: 133px;
+    margin-top: 220px;
     transform: rotate(3deg);
 
 }
@@ -94,4 +94,89 @@ header .row .col-lg-6 img{
     color:white;
     font-weight: bold;
     font-size:25px;
+}
+.features{
+    background: url(../images/background3.jpg);
+    background-repeat: no-repeat;
+}
+.features .row  img{
+    height:50px;
+    display: inline;
+    
+}
+.features .row .col-lg-6 .col-9{
+    padding-left:25px;
+}
+.features .row .col-lg-6 .col-9 h2{
+
+    color:white;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.features .row .col-lg-6 .col-9 p{
+    color:white;
+    font-size: 14px;
+    line-height: 25px;
+    padding-right:80px;
+}
+.features span{
+    border-bottom: 3px solid white;
+    padding-bottom:10px;
+    
+}
+.features .row .col-lg-6 .row{
+    padding:25px;
+}
+.features .row .col-lg-6{
+    padding-top:200px;
+}
+
+/*  */
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
 }
