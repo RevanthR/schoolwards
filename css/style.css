@@ -1,5 +1,7 @@
+
 header{
-    background: url(../images/background1.jpg);
+    /* background: url(../images/background1.jpg); */
+    background: #3B54F9;
     font-family: 'Open Sans', sans-serif;  
     background-repeat: no-repeat;
     background-size:auto; 
@@ -51,7 +53,8 @@ header .row .col-lg-6 img{
 
 }
 .why{
-    background:url(../images/background2.jpg);
+    /* background:url(../images/background2.jpg); */
+    background: #3B54F9;
     background-repeat: no-repeat;
 }
 .why .top .row p{
@@ -96,7 +99,8 @@ header .row .col-lg-6 img{
     font-size:25px;
 }
 .features{
-    background: url(../images/background3.jpg);
+    /* background: url(../images/background3.jpg); */
+    background: #3B54F9;
     background-repeat: no-repeat;
 }
 .features .row  img{
@@ -133,7 +137,8 @@ header .row .col-lg-6 img{
 
 /*  */
 .footer{
-    background: url(../images/b4.jpg);
+    /* background: url(../images/b4.jpg); */
+    background: #3B54F9;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -174,28 +179,15 @@ header .row .col-lg-6 img{
     font-weight:bold;
 }
 .footer .row .col-lg-4{
-    padding-top:250px;
+    padding-top:210px;
 }
 .footer .row .col-lg-4 .row{
     margin:20px;
     margin-right:5px;
     margin-bottom:40px;
 }
-.blog .carousel-indicators {
-	left: 0;
-	top: auto;
-    bottom: -40px;
-
+/* abcd */
+.clients{
+    background:#3B54F9;
 }
 
-/* The colour of the indicators */
-.blog .carousel-indicators li {
-    background: #a3a3a3;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-}
-
-.blog .carousel-indicators .active {
-background: #707070;
-}
