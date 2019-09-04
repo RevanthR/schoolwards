@@ -193,6 +193,25 @@ header .row .col-lg-6 img{
     padding:100px 40px 80px 80px;
     font-family: 'Open Sans', sans-serif;  
 }
+.clients .row .col-lg-4 img{
+    height:90px;
+    width: 90px;
+    border-radius:50%;
+    margin:20px auto;
+    display: block 
+}
+.clients .row .col-lg-4 p{
+    color:white;
+    font-family: 'Open Sans',sans-serif;
+    font-size:14px;
+    text-align: center;
+    margin:30px;
+    font-weight: bold;
+}
+.clients .row{
+    padding: 100px 40px;
+    padding-top:250px;
+}
 
 .clients h2 {
 	color:white;
