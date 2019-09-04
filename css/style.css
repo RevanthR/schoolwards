@@ -15,7 +15,7 @@ html {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,165,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .navbar-collapse{
-    background: #3B54F9;
+    /* background: #3B54F9; */
     margin: 0px;
 }
 header{
@@ -350,4 +350,113 @@ header .row .col-lg-6 img{
 .clients .carousel-indicators li.active {
 	border: none;
 	background: #ffffff;		
+}
+@media screen and (max-width: 900px) {
+.nav-item{
+    margin:0px;
+}
+.navbar-brand img{
+    padding-left:20px;
+    margin-top:5px;
+}
+.navbar{
+    background: #FA662E;
+   
+}
+.navbar {
+    padding:20px;
+}
+header .row .col-lg-6 img{
+    height: 250px;
+    margin-top:180px;
+    
+}
+header .row .col-lg-6 h1{
+    font-size:45px;
+    text-align: center;
+    padding-top: 50px;
+}
+header .row .col-lg-6 p{
+    text-align: center;
+    padding: 20px;
+    
+}
+header .row .col-lg-6 button{
+    margin:20px auto;
+    display: block;
+}
+.why .top .row{
+    padding: 10px;
+
+}
+.why .top .row p{
+    padding-top:60px;
+    padding:30px;
+    font-size:16px;
+}
+.why .bottom .row{
+
+}
+.features .row .col-lg-6{
+    padding:0px;
+    padding-top:0px;
+}
+.features .row .col-lg-6 .row{
+    padding:30px;
+    padding-left:70px;
+}
+
+
+.features .row .col-lg-6 .col-9 p
+{
+    padding:0px;
+    /* padding-left:20px; */
+}
+.features .row img{
+    display:block;
+}
+.features .row .col-lg-6 .col-9{
+    padding:0px;
+    padding-left:20px;
+}
+.clients{
+    padding:20px;
+}
+}
+.clients .row{
+    padding:60px 40px;
+
+}
+.footer .row .col-lg-8{
+    padding: 40px;
+    padding-bottom:0px
+    
+}
+.footer .row .col-lg-8 button{
+    margin:20px auto;
+    display: block;
+    padding-bottom:0px;
+}
+
+.footer .row .col-lg-4 img{
+    height:40px;
+}
+.footer .row .col-lg-4 p{
+    color:white;
+    font-size:16px;
+    padding:10px;
+    float:left;
+    font-weight:bold;
+}
+.footer .row .col-lg-4{
+    padding:20px;
+    padding-left: 50px;
+    
+    
+}
+.footer .row .col-lg-4 .row{
+    margin:20px;
+    margin-right:5px;
+    margin-bottom:40px;
+}
 }
