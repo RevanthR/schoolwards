@@ -382,15 +382,31 @@ header .row .col-lg-6 button{
     padding:0px;
 }
 .features .row .col-lg-6{
-    padding-top:30px;
+    padding-top:0px;
 }
 .features .row .col-lg-6 .col-9 p{
     padding-right:0px;
-    text-align:justify;
+    text-align:center;
+  
+}
+.features .row .col-lg-6 .col-9{
+    /* margin:10px auto; */
+    margin:10px auto;
+    display: block;
 }
 .features .row .col-lg-6 .col-9 h2{
     font-size:18px;
+    text-align: center;
     
+}
+.features .row .col-lg-6 .row{
+    padding:0px;
+    margin:20px 0px;
+}
+.features .row img{
+    height:65px;
+    margin:20px auto;
+    display:block;
 }
 .features span{
     border-bottom:0px;
@@ -406,7 +422,7 @@ header .row .col-lg-6 button{
 .clients .row .col-lg-4 p{
     text-align:justify;
     text-align-last:center;
-    margin:0px;
+    margin:10px;
 }
 .clients-car h2{
     padding-top:10px;
