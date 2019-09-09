@@ -85,7 +85,6 @@ header .row .col-lg-6 img{
     line-height: 38px;
 }
 .why .top .row{
-    padding: 0px 0px;
     padding:40px;
 }
 .why .bottom .row{
@@ -337,3 +336,117 @@ header .row .col-lg-6 img{
 	border: none;
 	background: #ffffff;		
 }
+@media screen and (max-width: 700px) {
+.navbar{
+    background:#3B54F9;
+    padding:0px;
+}
+.navbar-brand img{
+    height:50px;
+    padding-left:10px;
+    margin-top:0px;
+}
+header .row .col-lg-6 img{
+    height:200px;
+    margin:30px auto;
+    display:block;
+    margin-top:130px;
+}
+header .row .col-lg-6 h1{
+    font-size:35px;
+    text-align:center;
+    padding-top:15px;
+    line-height:60px;
+    letter-spacing: -2.85px;
+}
+header .row .col-lg-6 p{
+    padding:20px;
+    text-align:center;
+    font-size:18px;
+}
+header .row .col-lg-6 button{
+    margin:10px auto;
+    display: block;
+    margin-bottom:20px;
+}
+.why .top .row p{
+    padding:15px;
+    font-size:16px;
+   text-align: justify;
+   text-align-last:center;
+}
+.why .bottom .row{
+    padding:20px 60px;
+}
+.features .row{
+    padding:0px;
+}
+.features .row .col-lg-6{
+    padding-top:30px;
+}
+.features .row .col-lg-6 .col-9 p{
+    padding-right:0px;
+    text-align:justify;
+}
+.features .row .col-lg-6 .col-9 h2{
+    font-size:18px;
+    
+}
+.features span{
+    border-bottom:0px;
+    padding-bottom:0px;
+    
+}
+.clients{
+    padding:0px;
+}
+.clients .row{
+    padding:40px 30px;
+}
+.clients .row .col-lg-4 p{
+    text-align:justify;
+    text-align-last:center;
+}
+.clients-car h2{
+    padding-top:10px;
+    padding:10px;
+    font-size:22px;
+}
+.clients-car .carousel{
+    margin:10px 30px;
+    margin-bottom:40px;
+}
+.footer{
+    padding:10px;
+}
+.footer .row{
+    padding:5px;
+}
+.footer .row .col-lg-8{
+    padding:40px;
+}
+.footer .row .col-lg-8 .form-group button{
+    margin:20px auto;
+    display: block;
+}
+.footer .row .col-lg-4 img{
+    height:35px;
+}
+.footer .row .col-lg-4{
+    padding-top:10px;
+   
+    padding:30px;
+    margin-bottom:40px
+}
+.footer .row .col-lg-4 p{
+    font-size:14px;
+    padding:0px;
+    padding-left:10px;
+}
+.footer .row .col-lg-4 .row{
+    margin:10px;
+    margin-bottom:25px;
+    
+}
+}
+
