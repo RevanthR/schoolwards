@@ -179,6 +179,7 @@ header .row .col-lg-6 img{
     background:#FA662E;
     border:2px solid white;
     margin-bottom:10px;
+    color:white;
     
 }
 .footer .row .col-lg-8 .form-group button{
@@ -372,7 +373,7 @@ header .row .col-lg-6 button{
 .why .top .row p{
     padding:15px;
     font-size:16px;
-   text-align: justify;
+   /* text-align: justify; */
    text-align-last:center;
 }
 .why .bottom .row{
@@ -467,4 +468,5 @@ header .row .col-lg-6 button{
     
 }
 }
+
 
