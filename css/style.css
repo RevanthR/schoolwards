@@ -406,6 +406,7 @@ header .row .col-lg-6 button{
 .clients .row .col-lg-4 p{
     text-align:justify;
     text-align-last:center;
+    margin:0px;
 }
 .clients-car h2{
     padding-top:10px;
