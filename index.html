@@ -10,8 +10,8 @@
     <title>Schoolwards</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
 </head>
 <body>
         
@@ -33,7 +33,7 @@
                       </div>
                     </div>
             </nav>
-            <div class="row">
+            <div  class="row">
                 <div class="col-lg-6">
                     <img src="images/laptop-nav.png">
                 </div>
@@ -51,13 +51,16 @@
             </div>
         </header>
         <section class="why" id="why">
-            <div class="top">
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" class="top">
             <div class="row">
                 <p>Schoolwards – In the era where education and schooling consume a significant amount of time of a child, the incorporation of it with technology seems inevitable. Schoolwards relies on new technologies like IoT to triangulate the parent-student-teacher community and bring them closer.</p>
             </div>
             </div>
             <div class="bottom">
-            <div class="row">
+            <div data-aos="fade-up" data-aos-duration="3000" class="row">
                 <div class="col-lg-3">
                 <div class="col">
                     <p>Years of Operation</p>
@@ -251,7 +254,12 @@
                     </div>
                 </div>
             </section>
-        </div>   
+        </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+            AOS.init();
+    </script>   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.js"></script>     
     <script src="js/script.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
