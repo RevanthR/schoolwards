@@ -422,9 +422,10 @@ header .row .col-lg-6 button{
     margin:20px 0px;
 }
 .features .row img{
-    height:65px;
+    height:80px;
     margin:20px auto;
     display:block;
+    padding: 30px;
 }
 .features span{
     border-bottom:0px;
