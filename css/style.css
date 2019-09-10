@@ -30,7 +30,16 @@ header{
     font-family: 'Open Sans', sans-serif;
     color:white;
     margin:15px;
+    display: inline-block;
     font-size:14px;
+}
+.nav-item:hover{
+    border-bottom:3px solid white;
+    color:white;
+}
+
+.nav-item.active {
+    border-bottom: 3px solid white;
 }
 .navbar-brand img{
     height: 66px;
@@ -45,6 +54,7 @@ header .row .col-lg-6 h1{
     line-height: 80px; 
     padding-top:180px;
 }
+
 
 header .row .col-lg-6 p{
     font-size: 22px;
@@ -468,5 +478,3 @@ header .row .col-lg-6 button{
     
 }
 }
-
-
