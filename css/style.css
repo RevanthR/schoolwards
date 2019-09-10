@@ -1,6 +1,9 @@
+html, body {  
+      overflow-x: hidden; 
+     }
 html {
     scroll-behavior: smooth;
-    
+     
   
   }
   .collapse navbar-collapse{
@@ -22,7 +25,8 @@ header{
     background:#FA662E;
     font-family: 'Open Sans', sans-serif;  
     background-repeat: no-repeat;
-    background-size:auto; 
+    background-size:auto;
+     
     
 }
 .nav-item{
