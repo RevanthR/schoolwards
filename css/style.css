@@ -23,6 +23,8 @@ html {
 header{
     /* background: url(../images/background1.jpg); */
     background:#FA662E;
+    background-attachment: fixed;
+    position: fixed;
     font-family: 'Open Sans', sans-serif;  
     background-repeat: no-repeat;
     background-size:auto;
