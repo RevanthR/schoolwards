@@ -65,3 +65,37 @@ window.onload = function() {
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
   document.body.appendChild(css);
 };
+
+$('.count').each(function () {
+  $(this).prop('Counter',0).animate({
+      Counter: $(this).text()
+  }, {
+      duration: 4000,
+      easing: 'swing',
+      step: function (now) {
+          $(this).text(Math.ceil(now));
+      }
+  });
+});
+
+$(function () { // wait for document ready
+  // init
+  var controller = new ScrollMagic.Controller();
+
+  // define movement of panels
+  var wipeAnimation = new TimelineMax()
+    .fromTo(".section.two",    1, {y:  "100%"}, {y: "0%", ease: Linear.easeNone})  // in from right
+    .fromTo(".section.three", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}) // in from top
+    .fromTo(".section.four", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}); // in from top
+
+  // create scene to pin and link animation
+  new ScrollMagic.Scene({
+      triggerElement: ".sections",
+      triggerHook: "onLeave",
+      duration: "300%"
+    })
+    .setPin(".sections")
+    .setTween(wipeAnimation)
+    .addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+});
