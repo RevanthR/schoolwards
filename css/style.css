@@ -66,7 +66,7 @@ header .container-fluid{
     padding:150px 90px;
 }
 header .row  p{
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 450;
     color:white;
     margin:10px auto;
@@ -245,7 +245,7 @@ header .row img{
 }
 /* abcd */
 .clients{
-    background: wheat ;
+    background: whitesmoke ;
     padding:40px;
     font-family: 'Open Sans', sans-serif;  
 }
