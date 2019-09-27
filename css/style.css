@@ -1,3 +1,17 @@
+#floating {  
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* margin-left: 30px; */
+    /* margin-top: 5px; */
+  }
+  
+  @keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+  }
 html, body {  
       overflow-x: hidden; 
      }
@@ -423,7 +437,7 @@ footer{
         
          }
 .navbar{
-    background:#3B54F9;
+    background:#0388ef;
     padding:0px;
 }
 .navbar-brand img{
@@ -431,6 +445,31 @@ footer{
     padding-left:10px;
     margin-top:0px;
 }
+.navbar.scrolled{
+    background: #0388ef;
+    
+}
+
+.navbar.scrolled1{
+    background: #0388ef;
+}
+.navbar.scrolled1 a{
+    color:white;
+}
+.navbar.scrolled1 .navbar-brand img{
+    filter: grayscale(100%);
+}
+.navbar.scrolled2{
+    background: #0388ef;
+    
+}
+.navbar.scrolled2 a{
+    color:white;
+}
+.navbar.scrolled2 .navbar-brand img{
+    filter: grayscale(100%);
+}
+
 header .row  img{
     height:200px;
     margin:30px auto;

@@ -11,7 +11,6 @@ $(window).scroll(function(){
       $('.nav-item.active').removeClass('active');
       
     }
-  
   $('nav').toggleClass('scrolled1', $(this).scrollTop() > 1900);
   $('nav').toggleClass('scrolled2', $(this).scrollTop() > 2700)
  
