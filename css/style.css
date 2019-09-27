@@ -87,7 +87,7 @@ header .container-fluid{
 }
 
 .navbar.scrolled1{
-    background: none;
+    background: white;
 }
 .navbar.scrolled1 a{
     color:darkgrey;
@@ -249,6 +249,9 @@ header .row img{
 .demo .carousel-item img{
     height:300px;
     width: auto;
+}
+.demo .carousel-control-next,.demo .carousel-control-prev{
+    filter: invert(100%);
 }
 
 /*  */
