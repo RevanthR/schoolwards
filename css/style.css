@@ -46,10 +46,12 @@ header{
 .nav-item.active {
     border-bottom: 3px solid white;
 }
+
 .navbar-brand img{
     height: 66px;
     padding-left:40px;
-    margin-top:14px;
+   
+    /* margin-top:14px; */
 }
 header .row h1{
     color:  white;
@@ -65,6 +67,31 @@ header .row h1{
 header .container-fluid{
     padding:150px 90px;
 }
+.navbar.scrolled{
+    background: #0388ef;
+    
+}
+
+.navbar.scrolled1{
+    background: none;
+}
+.navbar.scrolled1 a{
+    color:darkgrey;
+}
+.navbar.scrolled1 .navbar-brand img{
+    filter: invert(60%);
+    
+}
+.navbar.scrolled2{
+    background: #f49c5a;
+    
+}
+.navbar.scrolled2 a{
+    color:white;
+}
+.navbar.scrolled2 .navbar-brand img{
+    filter: grayscale(100%);
+}
 header .row  p{
     font-size: 26px;
     font-weight: 450;
@@ -76,7 +103,7 @@ header .row  p{
     text-align: center;
 }
 
-header button{
+header .container-fluid button{
     border-radius: 20px;
     border: 3px solid white; 
     padding: 5px 40px;
@@ -98,7 +125,7 @@ header .row img{
     background-color: #0484e6;
     background-image: linear-gradient(180deg, #0075ce 0%, #03487c 100%);
     background-image: url(../images/background3.jpg); 
-    background-repeat: no-repeat;
+    
     background-size: 100%;
 }
 .why .top .row p{
@@ -404,25 +431,25 @@ footer{
     padding-left:10px;
     margin-top:0px;
 }
-header .row .col-lg-6 img{
+header .row  img{
     height:200px;
     margin:30px auto;
     display:block;
     margin-top:130px;
 }
-header .row .col-lg-6 h1{
+header .row h1{
     font-size:35px;
     text-align:center;
     padding-top:15px;
     line-height:60px;
     letter-spacing: -2.85px;
 }
-header .row .col-lg-6 p{
+header .row p{
     padding:20px;
     text-align:center;
     font-size:18px;
 }
-header .row .col-lg-6 button{
+header .row  button{
     margin:10px auto;
     display: block;
     margin-bottom:20px;

@@ -4,11 +4,25 @@ $(function(){
       $(this).addClass('active');
   });
 });
+$(window).scroll(function(){
+  $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+  if ($(this).scrollTop() == 0)
+    {
+      $('.nav-item.active').removeClass('active');
+      
+    }
+  
+  $('nav').toggleClass('scrolled1', $(this).scrollTop() > 1900);
+  $('nav').toggleClass('scrolled2', $(this).scrollTop() > 2700)
+ 
+});
 
 $(".navbar-nav a").click(function(event) {
   if (!$(this).parent().hasClass('dropdown'))
       $(".navbar-collapse").collapse('hide');
 });
+
+
 var TxtType = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -78,24 +92,4 @@ $('.count').each(function () {
   });
 });
 
-$(function () { // wait for document ready
-  // init
-  var controller = new ScrollMagic.Controller();
 
-  // define movement of panels
-  var wipeAnimation = new TimelineMax()
-    .fromTo(".section.two",    1, {y:  "100%"}, {y: "0%", ease: Linear.easeNone})  // in from right
-    .fromTo(".section.three", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}) // in from top
-    .fromTo(".section.four", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}); // in from top
-
-  // create scene to pin and link animation
-  new ScrollMagic.Scene({
-      triggerElement: ".sections",
-      triggerHook: "onLeave",
-      duration: "300%"
-    })
-    .setPin(".sections")
-    .setTween(wipeAnimation)
-    .addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
-});

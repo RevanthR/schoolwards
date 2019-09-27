@@ -26,7 +26,7 @@
                       <div class="navbar-nav ml-auto">
                         <a class="nav-item nav-link" href="#why">WHY SCHOOLWARDS <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="#features">FEATURES</a>
-                        <a class="nav-item nav-link" href="#header">DEMO</a>
+                        <a class="nav-item nav-link" href="#demo">DEMO</a>
                         <a class="nav-item nav-link" href="#clients">CLIENTS</a>
                         <a class="nav-item nav-link" href="#">CAREERS</a>
                         <a class="nav-item nav-link" href="#footer">CONTACT</a>
@@ -58,7 +58,7 @@
             <button type="button">EXPLORE</button>
         </div>
         </header>
-        <section class="why" id="why">
+        <section class="panel why" id="why">
             <div  class="top">
             <div class="row">
                 <p data-aos="fade-up" data-aos-duration="1200">Schoolwards – In the era where education and schooling consume a significant amount of time of a child, the incorporation of it with technology seems inevitable. Schoolwards relies on new technologies like IoT to triangulate the parent-student-teacher community and bring them closer.</p>
@@ -103,7 +103,7 @@
                 </div>
             </div>
         </section>
-        <section class="features" id="features">
+        <section class="panel features" id="features">
             <div class="row" >
                 <div class="col-lg-6">
                     <div class="row "  data-aos="fade-right"
@@ -157,7 +157,7 @@
                     </div>
                     <div class="row" data-aos="fade-right"
                     data-aos-offset="300"
-                    data-aos-easing="ease-in-sine" data-aos-delay="350">                            
+                    data-aos-easing="ease-in-sine" data-aos-delay="300">                            
                             <div class="col-auto">  
                             <img src="images/sh.png" >
                             </div>
@@ -179,22 +179,22 @@
                 </div>
             </div>
         </section>
-        <section class="demo" >
+        <section class=" panel demo" id="demo">
             <div class="row">
                 <div class="col-lg-6"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <p>
                         We believe in a simple and minimalistic design while making sure that all of the requirements are met. Have a look yourself.
                     </p>
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleControls" class="carousel slide" data-interval="200" data-ride="carousel">
                             <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="images/1.png" class="d-block w-100" alt="...">
+                              <div class="carousel-item active "data-interval="200" >
+                                <img src="images/1.png" class="d-block w-20" alt="...">
                               </div>
                               <div class="carousel-item">
-                                <img src="images/2.png" class="d-block w-100" alt="...">
+                                <img src="images/2.png" class="d-block w-20" alt="...">
                               </div>
                               <div class="carousel-item">
-                                <img src="images/3.png" class="d-block w-100" alt="...">
+                                <img src="images/3.png" class="d-block w-20" alt="...">
                               </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -331,28 +331,23 @@
         
               
         </footer>
-        <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script><script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>
-        <script >new Vue({
-          el: '#carousel3d',
-          data: {
-            slides: 7
-          },
-          components: {
-            'carousel-3d': Carousel3d.Carousel3d,
-            'slide': Carousel3d.Slide
-          }
-        })
-        //# sourceURL=pen.js
-        </script>   
-    
-   
+    <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script><script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>
+    <script >new Vue({
+        el: '#carousel3d',
+        data: {
+        slides: 7
+        },
+        components: {
+        'carousel-3d': Carousel3d.Carousel3d,
+        'slide': Carousel3d.Slide
+        }
+    })
+    //# sourceURL=pen.js
+    </script>   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
             AOS.init();
     </script>
-
-   
-   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.js"></script>     
     <script src="js/script.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
