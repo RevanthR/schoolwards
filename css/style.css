@@ -478,7 +478,7 @@ footer{
     color:white;
 }
 .navbar.scrolled1 .navbar-brand img{
-    filter: grayscale(100%);
+    filter: brightness(0) invert(1);
 }
 .navbar.scrolled2{
     background: #0388ef;
@@ -488,7 +488,7 @@ footer{
     color:white;
 }
 .navbar.scrolled2 .navbar-brand img{
-    filter: grayscale(100%);
+    filter: brightness(0) invert(1);
 }
 
 header .container-fluid{
