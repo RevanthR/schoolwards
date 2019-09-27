@@ -258,7 +258,7 @@ header .row img{
 .clients-car{
     background-color: #fcbf8e;
     background-image: linear-gradient(180deg, #f3a15e 0%, #fa662e 100%);
-    
+    padding:0px;
     
 }
 .clients-car h2 {
@@ -470,28 +470,31 @@ footer{
     filter: grayscale(100%);
 }
 
-header .row  img{
-    height:200px;
-    margin:30px auto;
-    display:block;
-    margin-top:130px;
+header .container-fluid{
+
+    padding:60px 20px;
+    margin:0px 0px;
 }
 header .row h1{
-    font-size:35px;
+    font-size:30px;
     text-align:center;
+    padding:20px;
     padding-top:15px;
     line-height:60px;
-    letter-spacing: -2.85px;
+    letter-spacing: -0.5px;
 }
 header .row p{
-    padding:20px;
+    padding:10px 20px;
     text-align:center;
     font-size:18px;
 }
 header .row  button{
     margin:10px auto;
     display: block;
-    margin-bottom:20px;
+    margin-top:0px;
+}
+header .container-fluid button{
+    margin:0px auto;
 }
 .why{
    background-size:fill;
@@ -514,14 +517,18 @@ header .row  button{
     margin:20px auto;
     display:block;
 }
+.demo .row{
+    padding:50px 25px;
+}
 .demo .col-lg-6 img
 .features .row{
     padding:0px;
 }
 .features .row .col-lg-6{
-    padding-top:0px;
-    padding-bottom:0px;
+    padding:0px 20px;
+    
 }
+
 .features .row .col-lg-6 .col-lg p{
     padding-right:0px;
     text-align:center;
@@ -565,6 +572,9 @@ header .row  button{
     text-align:justify;
     text-align-last:center;
     margin:10px;
+}
+.clients-car{
+    padding: 40px 10px;
 }
 .clients-car h2{
     padding-top:10px;
