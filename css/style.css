@@ -1,4 +1,4 @@
-#floating {  
+#floating1 {  
     animation-name: floating;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -83,7 +83,7 @@ header .container-fluid{
 }
 .navbar.scrolled{
     background: #0388ef;
-    
+    transition: background 0.5s;
 }
 
 .navbar.scrolled1{
@@ -211,7 +211,7 @@ header .row img{
 }
 .features .row .col-lg-6 p{
     color:white;
-    font-size: 16px;
+    font-size: 14.5px;
     line-height: 25px;
     /* padding-right:80px; */
     
@@ -505,6 +505,16 @@ header .row  button{
 .why .bottom .row{
     padding:20px 60px;
 }
+.hide{
+    display: none
+}
+.demo .col-lg-6 img{
+    height:250px;
+    width:auto;
+    margin:20px auto;
+    display:block;
+}
+.demo .col-lg-6 img
 .features .row{
     padding:0px;
 }
