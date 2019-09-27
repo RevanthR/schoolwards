@@ -7,6 +7,9 @@
     position: relative;
     top: -100%;
 }
+.break{
+    display: none;
+}
 #floating1 {  
     animation-name: floating;
     animation-duration: 4s;
@@ -259,9 +262,7 @@ header .row img{
     color:rgb(31, 27, 27);
     line-height: 40px;
 }
-.demo .carousel-item{
-    padding:20px;
-}
+
 .demo .carousel-item img{
     height:300px;
     width: auto;
@@ -453,10 +454,14 @@ footer{
     padding:30px;
 }
 @media screen and (max-width: 700px) {
-    html, body {  
-        overflow-x:hidden;
-        
-         }
+
+.break{
+    display: contents;
+}
+html, body {  
+    overflow-x:hidden;
+    
+        }
 .navbar{
     background:#0388ef;
     padding:0px;
@@ -497,12 +502,12 @@ header .container-fluid{
     margin:0px 0px;
 }
 header .row h1{
-    font-size:30px;
+    font-size:35px;
     text-align:center;
     padding:20px;
     padding-top:15px;
     line-height:60px;
-    letter-spacing: -0.5px;
+    letter-spacing: -1.5px;
 }
 header .row p{
     padding:10px 20px;
