@@ -55,7 +55,7 @@
                     <!-- <a data-aos="fade-up" data-aos-duration="300"> -->
                     
             </div>
-            <button type="button">EXPLORE</button>
+            <a href="#why"><button type="button">EXPLORE</button></a>
         </div>
         </header>
         <section class="panel why" id="why">
@@ -214,7 +214,7 @@
         </section>
      
          
-        <section class="clients-car" id="clients" >
+        <section class="clients-car animate-area" id="clients" >
             <h2>WHAT OUR CLIENTS SAY..</h2>
             
         <div class="row" id='floating' >
@@ -255,7 +255,7 @@
         <section class="footer" id ="footer">
             <div class="row" >
                 <div class="col-lg-8" data-aos="fade-down"
-                data-aos-anchor-placement="top-center" data-aos-duration="500">
+                data-aos-anchor-placement="top-center" data-aos-duration="500" style="background: white;">
                         <div class="form-group">
                                 <label for="usr">Name:</label>
                                 <input type="text" class="form-control" id="usr">
@@ -269,7 +269,7 @@
                                 <button type="submit">SUBMIT</button>
                         </div>
                 </div>
-                <div class="col-lg-4" data-aos="zoom-in-up"
+                <div class="col-lg-4" style="background: white;" data-aos="zoom-in-up"
                 data-aos-anchor-placement="top-center" data-aos-duration="500">
                     <div class="row">
                         <img src='images/ms.png'> <p>support@website.com</p>
@@ -288,20 +288,21 @@
         </section>
     </div>
     <footer>
+        <div class="bg"></div>
         <div class="row contact-intro">
             <div class="col-md-4"  >
                 <ul class="list-inline quicklinks" >
                     <li>
-                        <a title="about us" href="#about">About Us</a>
+                        <a title="about us" href="#why">Why Schoolwards</a>
                     </li>
-                    <li class="hide"><a title="blog" href="#">Blog</a>
+                    <li class="hide"><a title="blog" href="#features">Features</a>
                     </li>
                 
-                    <li><a title="careers" href="#">Careers</a>
+                    <li><a title="careers" href="#demo">Demo</a>
                     </li>
-                    <li><a title="contact us" href="#">Contact Us</a>
+                    <li><a title="contact us" href="#clients">Clients</a>
                     </li>
-                    <li><a title="tell your hr" href="#">Tell Your HR</a>
+                    <li><a title="tell your hr" href="#">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -331,18 +332,9 @@
         
               
         </footer>
-    <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script><script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>
-    <script >new Vue({
-        el: '#carousel3d',
-        data: {
-        slides: 7
-        },
-        components: {
-        'carousel-3d': Carousel3d.Carousel3d,
-        'slide': Carousel3d.Slide
-        }
-    })
-    //# sourceURL=pen.js
+
+        
+    
     </script>   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

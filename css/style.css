@@ -1,3 +1,12 @@
+.parallaxParent {
+    height: 100vh;
+    overflow: hidden;
+}
+.parallaxParent > * {
+    height: 200%;
+    position: relative;
+    top: -100%;
+}
 #floating1 {  
     animation-name: floating;
     animation-duration: 4s;
@@ -12,6 +21,7 @@
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }    
   }
+
 html, body {  
       overflow-x: hidden; 
      }
@@ -90,7 +100,10 @@ header .container-fluid{
     background: white;
 }
 .navbar.scrolled1 a{
-    color:darkgrey;
+    color:rgb(59, 53, 53);
+}
+.navbar.navbar.scrolled1 .nav-item.active {
+    border-bottom: 3px solid rgb(59, 53, 53) ;
 }
 .navbar.scrolled1 .navbar-brand img{
     filter: invert(60%);
@@ -99,6 +112,9 @@ header .container-fluid{
 .navbar.scrolled2{
     background: #f49c5a;
     
+}
+.navbar.navbar.scrolled2 .nav-item.active {
+    border-bottom: 3px solid white ;
 }
 .navbar.scrolled2 a{
     color:white;
@@ -368,7 +384,7 @@ header .row img{
     background-image: linear-gradient(0deg, #ff7e14 0%, #fa662e 100%);
 }
 .footer .row{
-   padding: 60px 20px 0px 20px;
+   padding: 80px;
 }
 .footer .row .col-lg-8{
     padding: 70px 120px;
@@ -376,30 +392,32 @@ header .row img{
 }
 
 .footer .row .col-lg-8 .form-group label{
-    color:white;
+    color:#282828;
     font-size:14px;
 }
 .footer .row .col-lg-8 .form-group input,.footer .row .col-lg-8 .form-group textarea{
     border-radius: 0px;
-    background:#ff7e14;
-    border:2px solid white;
+    background:white;
+    border:2px solid #cecece;
     margin-bottom:10px;
     color:white;
     
 }
+
 .footer .row .col-lg-8 .form-group button{
-    border-radius: 0px;
-    color:#FA662E;
-    background: white;
+    border-radius: 2px;
+    color:white;
+    background: #fa662e;
     border: 1px solid white;
     font-weight: bold;
-    padding:5px 30px;
+    margin-top:10px;    
+    padding:10px 40px;
 }
 .footer .row .col-lg-4 img{
     height:40px;
 }
 .footer .row .col-lg-4 p{
-    color:white;
+    color: #282828;
     font-size:16px;
     padding:10px;
     float:left;
@@ -430,8 +448,8 @@ header .row img{
     color:#0173c5;
 }
 footer{
-    background-color: #000000;
-    background-image: linear-gradient(189deg, #000000 0%, #333333 100%);
+    /* background; */
+    background-image: url(../images/footer-bg.jpg);
     padding:30px;
 }
 @media screen and (max-width: 700px) {
@@ -589,7 +607,7 @@ header .container-fluid button{
     margin-bottom:40px;
 }
 .footer{
-    padding:10px;
+    padding:30px;
 }
 .footer .row{
     padding:5px;
@@ -607,14 +625,14 @@ header .container-fluid button{
 .footer .row .col-lg-4{
     padding-top:10px;
    
-    padding:30px;
+    padding:10px;
     margin-bottom:20px
 }
 .footer .row .col-lg-4 p{
     font-size:14px;
     padding:0px;
     padding-left:10px;
-    color:white;
+    color:black;
 }
 .footer .row .col-lg-4 .row{
     margin:10px;
