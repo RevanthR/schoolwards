@@ -74,7 +74,7 @@ header{
 .navbar-brand img{
     height: 66px;
     padding-left:40px;
-   
+    filter: brightness(0) invert(1);
     /* margin-top:14px; */
 }
 header .row h1{
@@ -106,8 +106,7 @@ header .container-fluid{
     border-bottom: 3px solid rgb(59, 53, 53) ;
 }
 .navbar.scrolled1 .navbar-brand img{
-    filter: invert(60%);
-    
+    filter: brightness(1) invert(0);
 }
 .navbar.scrolled2{
     background: #f49c5a;
@@ -120,8 +119,9 @@ header .container-fluid{
     color:white;
 }
 .navbar.scrolled2 .navbar-brand img{
-    filter: grayscale(100%);
+    filter: brightness(0) invert(1);
 }
+
 header .row  p{
     font-size: 26px;
     font-weight: 450;
