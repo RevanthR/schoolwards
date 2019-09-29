@@ -80,6 +80,7 @@ window.onload = function() {
 };
 
 $('.count').each(function () {
+  if ($(this).scrollTop()==0){
   $(this).prop('Counter',0).animate({
       Counter: $(this).text()
   }, {
@@ -89,6 +90,7 @@ $('.count').each(function () {
           $(this).text(Math.ceil(now));
       }
   });
+  }
 });
 
 var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
