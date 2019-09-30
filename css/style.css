@@ -474,19 +474,49 @@ html, body {
 .navbar.scrolled1 a{
     color:white;
 }
+
 .navbar.scrolled1 .navbar-brand img{
     filter: brightness(0) invert(1);
 }
-.navbar.scrolled2{
-    background: #0388ef;
-    
+
+.navbar.scrolled-res{
+    background: white;
 }
-.navbar.scrolled2 a{
-    color:white;
+
+.navbar.scrolled-res .navbar-brand img
+{
+    filter: brightness(1) invert(0);
 }
-.navbar.scrolled2 .navbar-brand img{
+.navbar.scrolled-res .custom-toggler.navbar-toggler {
+    border-color: grey;
+
+}
+.navbar.scrolled-res .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='grey' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar.scrolled-res a{
+    color:grey;
+}
+.navbar.scrolled-res1{
+    background:#f49c5a ;
+}
+
+.navbar.scrolled-res1 .navbar-brand img
+{
     filter: brightness(0) invert(1);
 }
+.navbar.scrolled-res1 .custom-toggler.navbar-toggler {
+    border-color: white;
+
+}
+.navbar.scrolled-res1 .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar.scrolled-res1 a{
+    color:white;
+}
+
+
 
 header .container-fluid{
 

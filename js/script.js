@@ -12,7 +12,10 @@ $(window).scroll(function(){
       
     }
   $('nav').toggleClass('scrolled1', $(this).scrollTop() > 1900);
-  $('nav').toggleClass('scrolled2', $(this).scrollTop() > 2700)
+  $('nav').toggleClass('scrolled2', $(this).scrollTop() > 2700);
+    // Media Screen
+    $('nav').toggleClass('scrolled-res', $(this).scrollTop() > 3300);
+    $('nav').toggleClass('scrolled-res1', $(this).scrollTop() > 4200);
  
 });
 
