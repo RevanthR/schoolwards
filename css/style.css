@@ -93,6 +93,7 @@ header .container-fluid{
 
 .navbar.scrolled1{
     background: white;
+    transition: background 0.5s;
 }
 .navbar.scrolled1 a{
     color:rgb(59, 53, 53);
@@ -465,11 +466,12 @@ html, body {
 }
 .navbar.scrolled{
     background: #0388ef;
-    
+    transition: background 0.5s;
 }
 
 .navbar.scrolled1{
     background: #0388ef;
+    transition: background 0.5s;
 }
 .navbar.scrolled1 a{
     color:white;
@@ -481,6 +483,7 @@ html, body {
 
 .navbar.scrolled-res{
     background: white;
+    transition: background 0.5s;
 }
 
 .navbar.scrolled-res .navbar-brand img
@@ -499,6 +502,7 @@ html, body {
 }
 .navbar.scrolled-res1{
     background:#f49c5a ;
+    transition: background 0.5s;
 }
 
 .navbar.scrolled-res1 .navbar-brand img
