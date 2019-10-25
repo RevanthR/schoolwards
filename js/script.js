@@ -80,10 +80,8 @@ window.onload = function() {
   css.type = "text/css";
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
   document.body.appendChild(css);
-};
-
+}
 $('.count').each(function () {
-  if ($(this).scrollTop()==0){
   $(this).prop('Counter',0).animate({
       Counter: $(this).text()
   }, {
@@ -93,23 +91,5 @@ $('.count').each(function () {
           $(this).text(Math.ceil(now));
       }
   });
-  }
 });
 
-var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
-
-	// build scenes
-	new ScrollMagic.Scene({triggerElement: "#parallax1"})
-					.setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
-					.addIndicators()
-					.addTo(controller);
-
-	new ScrollMagic.Scene({triggerElement: "#parallax2"})
-					.setTween("#parallax2 > div", {y: "80%", ease: Linear.easeNone})
-					.addIndicators()
-					.addTo(controller);
-
-	new ScrollMagic.Scene({triggerElement: "#parallax3"})
-					.setTween("#parallax3 > div", {y: "80%", ease: Linear.easeNone})
-					.addIndicators()
-					.addTo(controller);
