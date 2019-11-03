@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trayahsri</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+        <div class="container-fluid thank">
+            <div class="row">
+                <img src="images/tick.gif">
+            </div>
+
+            <div class="row">
+                    <h1>Thank You! Your details have been submitted successfully.</h1>
+
+            </div>
+            <div class="row">
+                    <p>You will automatically be redirected back in <span id="seconds">5</span> seconds.
+                    </p>
+        
+            </div>
+    
+        </div>
+       
+        <script>
+               var seconds = 5; // seconds for HTML
+                var foo; // variable for clearInterval() function
+
+                function redirect() {
+                    document.location= 'index.html';
+                }
+
+                function updateSecs() {
+                    document.getElementById("seconds").innerHTML = seconds;
+                    seconds--;
+                    if (seconds == -1) {
+                        clearInterval(foo);
+                        redirect();
+                    }
+                }
+
+                function countdownTimer() {
+                    foo = setInterval(function () {
+                        updateSecs()
+                    }, 1000);
+                }
+
+                countdownTimer();
+        </script>
+            
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.js"></script>  
+             <script src="js/script.js"></script>
+             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

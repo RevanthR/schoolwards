@@ -259,20 +259,23 @@
     </section>
         <section class="footer" id ="footer">
             <div class="row" >
-                <div class="col-lg-8" data-aos="fade-down"
-                data-aos-anchor-placement="top-center" data-aos-duration="500" style="background: white;">
+                <div class="col-lg-8" data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-duration="500" style="background: white;">
+                    <script type="text/javascript">var submitted=false;</script>
+                    <iframe name="hidden_iframe" id ="hidden_iframe" style="display: none;" onload="if(submitted){window.location='thankyou.html';}"></iframe> 
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSdOPPe03LkJzgFa14XU6QjSpWDmZzqnd-hLL3wdGE2sxJmvfA/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true; " id="myForm">
                         <div class="form-group">
                                 <label for="usr">Name:</label>
-                                <input type="text" class="form-control" id="usr">
+                                <input type="text" class="form-control" name="entry.2145536286" id="usr">
                                 <label for="usr1">Email:</label>
-                                <input type="email" class="form-control" id="usr1">
+                                <input type="email" class="form-control" name="entry.678858140" id="usr1">
                                 
                                 <label for="comment">Phone:</label>
-                                <input type="text" class="form-control" id="usr2">
+                                <input type="text" class="form-control" name="entry.755477121" id="usr2">
                                 <label for="comment">Message:</label>
-                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                                <textarea class="form-control" rows="5" id="comment" name="entry.1575299848" ></textarea>
                                 <button type="submit">SUBMIT</button>
                         </div>
+                    </form>
                 </div>
                 <div class="col-lg-4" style="background: white;" data-aos="zoom-in-up"
                 data-aos-anchor-placement="top-center" data-aos-duration="500">

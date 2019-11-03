@@ -394,10 +394,30 @@ header .row img{
     background:white;
     border:2px solid #cecece;
     margin-bottom:10px;
-    color:white;
+    
     
 }
-
+.thank{
+    padding:30px;
+}
+.thank .row img{
+    height:100px;
+    margin:0px auto;
+    display: block;
+}
+.thank .row{
+    padding:15px;
+}
+.thank .row h1{
+    color:grey;
+    font-size:25px;
+    margin:0px auto;
+    text-align: center;
+}
+.thank .row p{
+    text-align: center;
+    margin: 0px auto;
+}
 .footer .row .col-lg-8 .form-group button{
     border-radius: 2px;
     color:white;
