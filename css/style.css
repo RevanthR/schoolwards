@@ -470,6 +470,7 @@ footer{
 .ku-text p{
 	color:white;
 	text-align:center;
+	margin:auto;
 }
 @media screen and (max-width: 700px) {
 
